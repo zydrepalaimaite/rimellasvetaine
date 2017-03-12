@@ -98,7 +98,26 @@ ul {
   border:  2 px black;
 }
 
+#mc_embed_signup{
+  background-image: url("images/forsubscribe.jpg");
+  background-repeat: no-repeat;
+  font-family: 'Allura';
+  font:14px;
 
-// #mc_embed_signup {
-//   background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQV8U5e-kpGaOrACqvJYLFtX77SnFl-clGuby88cZMpOpg3251);
-// }
+}
+
+#mc_embed_signup #mce-success-response {
+  color: black;
+  font-family:  'Allura';
+  font-size: 1.2em;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid black;
+
+
+}
+.mce_inline_error {
+  font-family:  'Allura';
+  font-size: 1.2em;
+}
