@@ -116,9 +116,6 @@ ul {
 }
 
 
-
-
-
 /* carousel */
 #quote-carousel
 {
@@ -192,11 +189,15 @@ ul {
 
 
 /* Subscription beggining */
-.signup {
+.container.signup {
   height: 200px;
   width: 100%;
-
+  background-image: url(../images/background1.jpg)
   background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
+  display:block;
+  position: top;
 }
 
 #mc_embed_signup{
@@ -205,14 +206,11 @@ ul {
 }
 
 #mc-embedded-subscribe {
+  background-color: black;
+  text-align: center;
+  font: white;
 
 }
-
-
-
-
-
-
 
 #mc_embed_signup #mce-success-response {
   color: black;
