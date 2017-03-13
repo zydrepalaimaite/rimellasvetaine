@@ -192,15 +192,27 @@ ul {
 
 
 /* Subscription beggining */
+.signup {
+  height: 200px;
+  width: 100%;
 
+  background-repeat: no-repeat;
+}
 
 #mc_embed_signup{
-  background-image: url("images/forsubscribe.jpg");
-  background-repeat: no-repeat;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font:14px;
+}
+
+#mc-embedded-subscribe {
 
 }
+
+
+
+
+
+
 
 #mc_embed_signup #mce-success-response {
   color: black;
@@ -209,7 +221,6 @@ ul {
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 1px solid red;
-
 
 }
 .mce_inline_error {
