@@ -43,6 +43,13 @@ footer {
   margin-bottom: 0;
 }
 
+h1 {
+  font-family: 'Allura', cursive;
+  text-align: center;
+  font-size: 4em;
+  text-transform: none;
+}
+
 h2, h3 {
   text-transform: uppercase;
   font-size: 1.2em;
@@ -58,12 +65,7 @@ a, p {
   font-weight: 400;
 }
 
-h1 {
-  font-family: 'Allura', cursive;
-  text-align: center;
-  font-size: 4em;
-  text-transform: none;
-}
+
 
 a.navbar-brand.logo-name{
     font-family: 'Allura', cursive;
@@ -91,6 +93,9 @@ body {
 ul {
   list-style-type: square;
 }
+.page-header {
+  margin-top: 60px;
+}
 
 .product-types {
   font-style: normal;
@@ -110,28 +115,8 @@ ul {
   border:  2 px black;
 }
 
-#mc_embed_signup{
-  background-image: url("images/forsubscribe.jpg");
-  background-repeat: no-repeat;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font:14px;
-
-}
-
-#mc_embed_signup #mce-success-response {
-  color: black;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 1px solid black;
 
 
-}
-.mce_inline_error {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-}
 
 
 /* carousel */
@@ -146,7 +131,6 @@ ul {
 {
   background: none;
   color: #222;
-  font-size: 2.3em;
   text-shadow: none;
   margin-top: 30px;
 }
@@ -177,29 +161,58 @@ ul {
 {
   background: #333333;
 }
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
+
 /* End carousel */
+
+.carousel-inner.reviews {
+  text-align: center;
+  max-height: 100px;
+  min-height: 100px;
+}
 
 .item blockquote {
     border-left: none;
     margin: 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
 }
 
-.item blockquote img {
-    margin-bottom: 10px;
+.item small{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1em;
 }
 
 .item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
+    content: '\f10d';
+    font-family: 'FontAwesome';
     float: left;
     margin-right: 10px;
+    text-decoration: none;
 }
 
-.page-header {
-  margin-top: 60px;
+
+/* Subscription beggining */
+
+
+#mc_embed_signup{
+  background-image: url("images/forsubscribe.jpg");
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font:14px;
+
+}
+
+#mc_embed_signup #mce-success-response {
+  color: black;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 1px solid red;
+
+
+}
+.mce_inline_error {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
 }

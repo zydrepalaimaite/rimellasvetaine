@@ -28,10 +28,10 @@ $('#mc-embedded-subscribe-form').submit(function(e) {
       return false;
 });
 
-$(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pause: true,
-    interval: 4000,
-  });
-});
+// $(document).ready(function() {
+//   //Set the carousel options
+//   $('#quote-carousel').carousel({
+//     pause: true,
+//     interval: 8000,
+//   });
+// });
