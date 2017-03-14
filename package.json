@@ -55,5 +55,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Issikvietus `gulp serve`",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zydrepalaimaite/rimellasvetaine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zydrepalaimaite/rimellasvetaine/issues"
+  },
+  "homepage": "https://github.com/zydrepalaimaite/rimellasvetaine#readme"
 }

@@ -15,7 +15,7 @@ $('#mc-embedded-subscribe-form').submit(function(e) {
             console.log(err);
             $('#mce-success-response').css('display', 'block');
           },
-          success     : function(data) {
+          success: function(data) {
               if (data.result != 'success') {
                   // Something went wrong, parse data.msg string and display message
                   $('#mce-error-response').css('display', 'block');
@@ -32,6 +32,6 @@ $(document).ready(function() {
   //Set the carousel options
   $('#quote-carousel').carousel({
     pause: true,
-    interval: 8000,
+    interval: 10000,
   });
 });
