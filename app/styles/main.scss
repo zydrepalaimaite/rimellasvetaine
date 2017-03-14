@@ -256,3 +256,9 @@ ul {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
 }
+
+@media (max-width:448px) {
+  .footer p {
+    font-size: 10px;
+  }
+}
