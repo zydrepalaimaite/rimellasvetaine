@@ -191,8 +191,9 @@ ul {
 
 .carousel-inner.reviews {
   text-align: center;
-  max-height: 100px;
+  max-height: 120px;
   min-height: 100px;
+
 }
 
 .item blockquote {
@@ -220,13 +221,13 @@ ul {
 .container.signup {
   height: 250px;
   width: 100%;
-  background-image: url(../images/background1.jpg);
+  background-image: url(../images/newsletter.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size:100%;
   display:block;
-  position: top;
+
 }
+
 
 #mc_embed_signup{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -235,14 +236,18 @@ ul {
 #mc_embed_signup h2{
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: white;
+  margin-top: 15px;
 
+}
+
+#mc_embed_signup_scroll {
+  margin-top:20px;
 }
 
 #mc-embedded-subscribe {
   background-color: black;
   text-align: center;
   color: white;
-
 }
 
 #mc_embed_signup #mce-success-response {
@@ -260,12 +265,31 @@ ul {
 }
 
 @media (max-width: 448px) {
+  h1 {
+    font-size: 3em;
+  }
   .footer h2 {
     font-size: 1em;
     text-align: center;
   }
   .footer p {
     font-size: 10px;
+  }
 
+  .container.signup {
+    min-width: 200px;
+    font-size: 12px;
+    background-size: cover;
+
+
+  }
+
+  .carousel-inner.reviews {
+    font-size: 10px;
+    font-size: 1em;
+  }
+
+  .form-control {
+    height: 26px;
   }
 }

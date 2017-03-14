@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-    interval: 2000 //changes the speed
+    interval: 8000 //changes the speed
 });
 
 
