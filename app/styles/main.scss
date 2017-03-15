@@ -6,7 +6,6 @@ $icon-font-path: '../fonts/'; // bower:scss
 html, body {
   height: 100%;
 }
-
 body {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -31,7 +30,6 @@ body {
   background-size: cover;
 }
 
-
 h1 {
   font-family: 'Allura', cursive;
   text-align: center;
@@ -39,21 +37,35 @@ h1 {
   text-transform: none;
 }
 
-h2, h3 {
+h2, h3  {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 400;
   letter-spacing: 1px;
-  margin:5px 0 0 0;
+  margin:10px 0;
+  text-align: center;
 }
+
+
 a, p {
   font-size: 1.2em;
   line-height: 1.2em;
   font-weight: 400;
 }
 
-
+.description {
+  margin-top:50px;
+}
+.description ul li p{
+  text-align: left;
+  font-size: 1.3em;
+}
+.description li{
+  margin-top:10px;
+  margin-left: 30px;
+}
 
 a.navbar-brand.logo-name{
     font-family: 'Allura', cursive;
@@ -87,6 +99,26 @@ footer p {
     font-size: 1.1em;
     }
 
+.carousel-caption.first {
+  width: 100px;
+  hight:60px;
+  text-align: center;
+  font: 40px;
+  margin-right: 50px;
+  margin-top: 80px;
+}
+
+.first p{
+  width: 100px;
+  hight:60px;
+  text-align: center;
+  font: 80px;
+  margin-right: 50px;
+  margin-top: 80px;
+}
+
+
+
 .all-footer-text {
   margin-top: 20px;
 }
@@ -106,8 +138,13 @@ footer p {
 .img-responsive {
   width: 700px;
   height: 350px;
-
 }
+.img-responsive-small {
+  width: 250px;
+  height: 350px;
+}
+
+
 .img-responsive.coupon {
   width: 700px;
   max-height: 450px;
@@ -122,6 +159,7 @@ ul {
 }
 .page-header {
   margin-top: 60px;
+  margin-bottom: 0;
 }
 
 .product-types ul li {
@@ -145,6 +183,9 @@ ul {
 
 .shop-contacts {
   text-align: center;
+}
+.shop-contacts h2 {
+  margin-top: 30px;
 }
 
 .underline{
@@ -238,10 +279,11 @@ ul {
 .container.signup {
   height: 250px;
   width: 100%;
-  background-image: url(../images/newsletter.jpg);
+  background-image: url(../images/newsletter3.jpg);
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size: cover;
   display:block;
+  background-position: center;
 
 }
 
@@ -268,9 +310,12 @@ ul {
   color: white;
 }
 
-#mc_embed_signup #mce-success-response {
+#mce-success-response {
   color: black;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  background-color: white;
+  height:50px;
+  width: 100%;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
@@ -291,8 +336,6 @@ ul {
     font-size: 1em;
     // text-align: center;
   }
-
-
 
   .footer p {
     font-size: 10px;
@@ -315,6 +358,21 @@ ul {
   .description-about-coupons {
     margin-top: 10px;
   }
+  .description{
+    margin-top: 0;
+  }
+  .description h2{
+    margin:5px;
+  }
+  .description-li ul{
+    padding:0;
+  }
+  .shop-contacts h2 {
+    margin-top: 10px;
+  }
+  .item blockquote {
+    font-size: 1em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -326,3 +384,10 @@ ul {
     text-align: left;
     }
   }
+  .description{
+    margin-top: 5px;
+  }
+  .shop-contacts h2 {
+    margin-top: 10px;
+  }
+}

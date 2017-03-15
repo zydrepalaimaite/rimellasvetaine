@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-    interval: 8000 //changes the speed
+    interval: 5000 //changes the speed
 });
 
 
@@ -32,6 +32,6 @@ $(document).ready(function() {
   //Set the carousel options
   $('#quote-carousel').carousel({
     pause: true,
-    interval: 10000,
+    interval: 5000,
   });
 });
