@@ -79,6 +79,7 @@ footer h2 {
   margin: 15px 0;
   font-size: 1.4em;
   margin:5px;
+  text-align: center;
   }
 
 footer p {
@@ -96,12 +97,16 @@ footer p {
   text-align: right;
 }
 
+.carousel-caption.first {
+  margin-top: 200px;
+  margin-right: 100px;
 
-
+}
 
 .img-responsive {
   width: 700px;
-  max-height: 300px;
+  height: 350px;
+
 }
 .img-responsive.coupon {
   width: 700px;
@@ -119,17 +124,18 @@ ul {
   margin-top: 60px;
 }
 
-.product-types {
+.product-types ul li {
   font-style: normal;
   text-align: center;
+
 }
 .product-types h2 {
   margin-top: 30px;
-  font-style: bold;
 }
 
+
 .product-types p {
-  margin-top: 50px;
+  margin-top:30 px;
   font-style: bold;
 }
 
@@ -248,6 +254,7 @@ ul {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: white;
   margin-top: 15px;
+  text-align: center;
 
 }
 
@@ -267,7 +274,7 @@ ul {
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 1px solid red;
+  border: 1px solid black;
 
 }
 .mce_inline_error {
@@ -275,15 +282,18 @@ ul {
   font-size: 1.2em;
 }
 
-@media (max-width: 448px) {
+@media (max-width: 561px) {
   h1 {
     font-size: 3em;
   }
 
   .footer h2 {
     font-size: 1em;
-    text-align: center;
+    // text-align: center;
   }
+
+
+
   .footer p {
     font-size: 10px;
   }
@@ -306,3 +316,13 @@ ul {
     margin-top: 10px;
   }
 }
+
+@media (min-width: 768px) {
+  .footer-contact{
+  text-align: right;
+  }
+
+  .footer-text {
+    text-align: left;
+    }
+  }

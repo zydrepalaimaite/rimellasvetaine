@@ -10,8 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
   <!-- Place favicon.ico in the root directory -->
 
   <!-- build:css styles/vendor.css -->
@@ -69,7 +68,7 @@
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <!-- <li data-target="#myCarousel" data-slide-to="1"></li> -->
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
@@ -78,22 +77,21 @@
       <div class="item active">
         <!-- Set the first background image using inline CSS below. -->
         <div class="fill" style="background-image:url(images/background1.jpg)"></div>
-        <div class="carousel-caption">
+        <div class="carousel-caption first">
           <h2>Sveiki atvykę!</h2>
 
         </div>
       </div>
-      <div class="item">
-        <!-- Set the second background image using inline CSS below. -->
+      <!-- <div class="item">
         <div class="fill" style="background-image:url(images/background2.jpg)"></div>
         <div class="carousel-caption">
           <h2>Sveiki atvykę!</h2>
         </div>
-      </div>
+      </div> -->
       <div class="item">
         <!-- Set the third background image using inline CSS below. -->
         <div class="fill" style="background-image:url(images/background3.jpg);"></div>
-        <div class="carousel-caption">
+        <div class="carousel-caption second">
           <h2>Sveiki atvykę!</h2>
         </div>
       </div>
@@ -127,9 +125,20 @@
           <div class="image_container col-xs-12 col-sm-6">
             <img class="img-responsive" src="images/pasiula0.jpg" alt="">
           </div>
-          <div class="col-xs-12 col-sm-6">
-            <h2>Moteriška natūralios ar dirbtinės odos avalynė</h2>
-            <p>Mūsų parduotuvėse visuomet rasite platų tiek natūralios, tiek dirbtinės odos avalynės pasirinkimą. Visa siūloma avalynė pasižymi gera kokybe bei patrauklia kaina.</p>
+          <div class="col-xs-12 col-sm-6 description">
+            <h2>Moteriška avalynė</h2>
+            <h3>Visada rasite:</h3>
+              <ul>
+              <li>
+                <p>Natūralios ar dirbtinos odos avalynė</p>
+              </li>
+              <li>
+                <p>Proginiai bateliai visus metus</p>
+              </li>
+              <li>
+                <p>Sezoninė avalynė</p>
+              </li>
+            </ul>
 
           </div>
         </div>
@@ -140,7 +149,7 @@
         <!-- Project Two -->
         <div class="product-types row">
         <div class="image_container col-xs-12 col-sm-6 col-sm-push-6">
-          <img class="img-responsive" src="images/pasiula2.jpg" alt="">
+          <img class="img-responsive" src="images/bendra2didesne.jpg" alt="">
         </div>
         <div class="product-types col-xs-12 col-sm-6 col-sm-pull-6">
           <h2>Rankinės</h2>
@@ -155,7 +164,7 @@
       <!-- Project Three -->
       <div class="product-types row">
         <div class="image_container col-xs-12 col-sm-6">
-          <img class="img-responsive" src="images/pasiula3.jpg" alt="">
+          <img class="img-responsive" src="images/nuotrauka-antra.jpg" alt="">
         </div>
         <div class="col-xs-12 col-sm-6">
           <h2>Vyriška avalynė ir odinė galanterija</h2>
@@ -171,23 +180,22 @@
       <!-- Project Four -->
       <div class="product-types row">
         <div class="image_container col-xs-12 col-sm-6 col-sm-push-6">
-          <img class="img-responsive" src="images/pasiula4.jpg" alt="">
+          <img class="img-responsive" src="images/bendra4.jpg" alt="">
         </div>
-
         <div class="col-xs-12 col-sm-6 col-sm-pull-6">
           <h2>Lagaminai, krepšiai</h2>
           <h3>Subheading</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
         </div>
-
-
       </div>
+
     </div>
     <!-- /.row -->
     </div>
   </section>
 
   <hr>
+
 
   <!-- PresentCoupons Content -->
   <section id="dovanu-kuponai">
@@ -239,7 +247,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 shop-contacts">
+          <div class="col-xs-12 col-sm-6 shop-contacts">
             <span>
               <h2>UKMERGĖJE</h2>
               </span>
@@ -251,7 +259,7 @@
             <p>I-V: 10:00 - 19:00</p>
             <p>VI-VII: 10:00 - 16:00</p>
           </div>
-          <div class="col-xs-6 shop-contacts">
+          <div class="col-xs-12 col-sm-6 shop-contacts">
             <h2>UTENOJE</h2><br>
             <p>PC NORFA, Utena</p>
             <p>Parduotuvė įsikūrusi priešais Norfa kasas</p>
@@ -358,8 +366,8 @@
                   <div class="col-md-6 col-sm-6 col-xs-offset-2 col-xs-8">
                     <label class="sr-only" for="mce-EMAIL">Elektronis paštas<span class="asterisk">*</span>
                  </label>
-                    <input type="email" name="EMAIL" class="form-control required email" placeholder="Jūsų elektroninio paštas" id="mce-EMAIL">
-                  </div>
+                    <input type="email" name="EMAIL" class="form-control required email" placeholder="Jūsų elektroninio paštas" id="mce-EMAIL" required>
+                    </div>
                   <div class="col-md-6 col-sm-6 col-xs-offset-2 col-xs-8">
                     <label class="sr-only" for="mce-NUMBER">Telefono numeris </label>
                     <input type="text" name="NUMBER" id="mce-NUMBER" class="form-control" placeholder="Jūsų telefono numeris">
@@ -397,7 +405,7 @@
        * Translated default messages for the $ validation plugin in lithuanian.
        * Locale: LT
        */
-      $.extend($.validator.messages, {
+      $mcj.extend($mcj.validator.messages, {
         required: "Šis laukas yra privalomas.",
         remote: "Prašau pataisyti šį lauką.",
         email: "Prašau įvesti teisingą elektroninio pašto adresą.",
@@ -409,17 +417,19 @@
         creditcard: "Prašau įvesti teisingą kreditinės kortelės numerį.",
         equalTo: "Prašau įvestį tą pačią reikšmę dar kartą.",
         accept: "Prašau įvesti reikšmę su teisingu plėtiniu.",
-        maxlength: $.format("Prašau įvesti ne daugiau kaip {0} simbolių."),
-        minlength: $.format("Prašau įvesti bent {0} simbolius."),
-        rangelength: $.format("Prašau įvesti reikšmes, kurių ilgis nuo {0} iki {1} simbolių."),
-        range: $.format("Prašau įvesti reikšmę intervale nuo {0} iki {1}."),
-        max: $.format("Prašau įvesti reikšmę mažesnę arba lygią {0}."),
-        min: $.format("Prašau įvesti reikšmę didesnę arba lygią {0}.")
+        maxlength: $mcj.validator.format("Prašau įvesti ne daugiau kaip {0} simbolių."),
+        minlength: $mcj.validator.format("Prašau įvesti bent {0} simbolius."),
+        rangelength: $mcj.validator.format("Prašau įvesti reikšmes, kurių ilgis nuo {0} iki {1} simbolių."),
+        range: $mcj.validator.format("Prašau įvesti reikšmę intervale nuo {0} iki {1}."),
+        max: $mcj.validator.format("Prašau įvesti reikšmę mažesnę arba lygią {0}."),
+        min: $mcj.validator.format("Prašau įvesti reikšmę didesnę arba lygią {0}."),
       });
     }(jQuery));
     var $mcj = jQuery.noConflict(true);
   </script>
   <!--End mc_embed_signup -->
+
+
 
 
   <!-- Footer -->
